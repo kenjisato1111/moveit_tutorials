@@ -76,10 +76,10 @@ def all_close(goal, actual, tolerance):
   return True
 
 
-class MoveGroupPythonIntefaceTutorial(object):
-  """MoveGroupPythonIntefaceTutorial"""
+class MoveGroupPythonInterfaceTutorial(object):
+  """MoveGroupPythonInterfaceTutorial"""
   def __init__(self):
-    super(MoveGroupPythonIntefaceTutorial, self).__init__()
+    super(MoveGroupPythonInterfaceTutorial, self).__init__()
 
     ## BEGIN_SUB_TUTORIAL setup
     ##
@@ -457,7 +457,7 @@ def main():
     print ""
     print "============ Press `Enter` to begin the tutorial by setting up the moveit_commander ..."
     raw_input()
-    tutorial = MoveGroupPythonIntefaceTutorial()
+    tutorial = MoveGroupPythonInterfaceTutorial()
 
     print "============ Press `Enter` to execute a movement using a joint state goal ..."
     raw_input()
